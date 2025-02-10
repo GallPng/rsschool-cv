@@ -1,3 +1,1 @@
-# rsschool-cv
-
-https://GallPng.github.io/rsschool-cv/cv
+https://GallPng.github.io/rsschool-cv/
