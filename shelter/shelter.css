@@ -1,0 +1,420 @@
+.body {
+   margin: auto;
+}
+
+.background-wrapper {
+    background: linear-gradient(to right, #5B483A ,#262425);
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1280px;
+}
+
+.grey {
+    background: #F6F6F6;
+    width: 100%;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between ;
+    padding-left: 40px;
+}
+.section-one {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 40px;
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+h3 {
+    display: flex;
+    font-size: 32px;
+    color: #F1CDB3;
+    font-family: Georgia;
+    margin-bottom: 0;
+}
+
+p {
+    display: flex;
+    justify-content: center;
+    color: #FFF;
+    margin-top: 0;
+}
+
+.logo {
+    text-decoration: none;
+}
+
+.nav {
+    display: flex;
+    margin-top: 50px;
+    list-style: none;
+    flex-wrap: wrap;
+}
+.nav a {
+    vertical-align: middle;
+    justify-content: space-around;
+    text-decoration: none;
+    color: #CDCDCD;
+    font-size: 15px;
+    font-family: Arial;
+    font-weight: 400;
+    margin-right: 40px;
+}
+.notactive {
+    border-bottom: 3px solid #F1CDB3;
+    margin-bottom: 30px;
+}
+
+.active:active {
+    color: #FAFAFA;
+    border-bottom: 3px solid #F1CDB3;
+    margin-bottom: 30px;
+}
+
+.active:hover {
+    cursor: pointer;
+    border-bottom: 3px solid #F1CDB3;
+    margin-bottom: 30px;
+}
+
+.main {
+    width: 100%;
+    height: 65%;
+}
+
+.text-heanding {
+    font-family: Georgia;
+    font-size: 44px;
+    font-weight: 400;
+    line-height: 57.2px;
+    color: #FFF;
+    display: flex;
+    width: 400px;
+    margin-top: 40px;
+}
+
+.text-subheanding {
+    font-family: Arial;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #CDCDCD;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    width: 400px;
+}
+
+.button {
+    background-color: #F1CDB3;
+    padding: 15px 45px 15px 45px;
+    color: #292929;
+    border-radius: 50px;
+    width: 207px;
+    font-family: Georgia;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22.1px;
+}
+
+.button:hover, .button-arrow1:hover, .button-get:hover {
+    background-color:  #FDDCC4;
+    cursor: pointer;
+}
+
+.button-arrow1:active  {
+    background-color: #F1CDB3;
+}
+
+.button-arrow2:disabled {
+    color: #CDCDCD;
+    border: 2px solid #CDCDCD;
+}
+
+
+.About {
+    display: flex;
+    padding: 90px 50px 90px 50px;
+    width: 1200px;
+    height: 408px;
+    justify-content: space-evenly;
+}
+
+.heanding-about {
+    font-family: Georgia;
+    width: 300px;
+    height: 90px;
+    color: #545454;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 45.5px;
+}
+
+.subheanding-about {
+    font-weight: 430px;
+    font-family: Arial;
+    font-size: 15px;
+    line-height: 24px;
+    color: #4C4C4C;
+    width: 430px;
+}
+
+.our-friends {
+    display: flex;
+    background-color: #F6F6F6;
+    height: 697px;
+    width: 1280px;
+    padding: 40px 10px 40px 10px;
+    flex-direction: column;
+    align-items: center;
+}
+.heanding-ourpets {
+    font-family: Georgia;
+    font-weight: 400;
+    width: 350px;
+    height: 90px;
+    color: #545454;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 45.5px;
+    display: flex;
+    align-self: center;
+}
+.three {
+    display: flex;
+    flex-direction: row;
+    width: 1280px;
+    height: 435px;
+    justify-content: space-evenly;
+    padding-left: 0px;
+    margin-bottom: 50px;
+}
+
+.pets-name {
+    margin-top: 25px;
+    margin-bottom: 35px;
+    font-family: Georgia;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 22.72px;
+    color: #545454;
+}
+ .Katrine, .Jennifer, .Woody {
+    background-color: #FAFAFA;
+    display: flex;
+    flex-direction: column;
+    height: 435px;
+    width: 270px;
+ }  
+ 
+ .Katrine:hover, .Jennifer:hover, .Woody:hover {
+    background-color: #FFFFFF;
+    cursor: pointer;
+    }
+.button-ourpets:hover {
+    background-color: #FDDCC4;
+}
+
+ .button-ourpets {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 41px;
+    border: 2px solid #F1CDB3;
+    border-radius: 100px;
+    color: #292929;
+    font-family: Georgia;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22.1px;
+    background-color: white;
+    width: 187px;
+    height: 52px;
+ }
+.button-arrow1 {
+    border: 2px solid #F1CDB3;
+    border-radius: 100px;
+    color: #292929;
+    background-color: white;
+    width: 52px;
+    height: 52px;
+    text-align: center;
+    align-self: center;
+}
+
+.button-arrow2 {
+    border: 2px solid #CDCDCD;
+    border-radius: 100px;
+    color: #CDCDCD;
+    background-color: white;
+    width: 52px;
+    height: 52px;
+    text-align: center;
+    align-self: center;
+}
+
+.button-get {
+    font-family: Georgia;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22.1px;
+    background-color: #F1CDB3;
+    width: 261px;
+    height: 52px;
+    border-radius: 100px;
+    border: none;
+}
+
+.help {
+    padding: 90px 40px 90px 40px;
+    width: 1200px;
+    height: 430px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    text-align: center;
+
+}
+.helps {
+    width: 1026px;
+    margin-top: 50px;
+    display: flex;
+    gap: 55px 120px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.helpbox {
+    
+    height: 113px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.icon {
+    width: 60px;
+    height: 60px;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.help-name {
+    font-family: Georgia;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    align-self: center;
+    color: #545454;
+}
+
+.donation {
+    display: flex;
+    flex-direction: row;
+    background-color: #F6F6F6;
+    padding: 108px 182px 108px 182px;
+}
+.donation img {
+    margin-right: 20px;
+}
+
+.bank-name {
+    font-family: Georgia;
+    font-weight: 400;
+    font-size: 15px;
+    color: #545454;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.bank-nomber {
+    width: 340px;
+    height: 43px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#F1CDB3;
+    border-radius: 10px;
+    font-family: Georgia;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.bank-nomber img {
+    margin-right: 20px;
+}
+.bank-nomber a {
+    text-decoration: none;    
+    color: #545454;
+
+}
+
+.legal {
+    margin-top: 15px;
+    font-family: Arial;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 12px;
+    line-height: 18px;
+    color: #B2B2B2;
+}
+
+.footer-wrapper {
+    background: linear-gradient(to right, #513D2F ,#1A1A1C);
+
+}
+
+.footer {
+    width: 100%;
+    height: 350px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0;
+    padding: 40px 40px 0 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.for-title, .visit-title {
+    color: #FFF;
+    font-family: Georgia;
+    font-weight: 400;
+    font-size: 35px;
+    width: 270px;
+}
+.for, .visit {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;    
+    height: 234px;
+
+    }
+.contacts {
+    color: #F1CDB3;
+    font-family: Georgia;
+    font-weight: 400;
+    font-size: 23px;
+    text-decoration: none;
+    width: 302px;   
+}
+
+.email-img, .icon-img, .pin.png,  {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.pin-contacts {
+    display: flex;
+ }
+
+ .liz {
+    display: flex;
+    align-items: end;
+ }
+    
