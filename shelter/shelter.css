@@ -78,6 +78,8 @@ p {
 
 .active:hover {
     cursor: pointer;
+    border-bottom: 3px solid #F1CDB3;
+    margin-bottom: 30px;
 }
 
 .main {
@@ -123,8 +125,6 @@ p {
     background-color:  #FDDCC4;
     cursor: pointer;
 }
-
-
 
 .button-arrow1:active  {
     background-color: #F1CDB3;

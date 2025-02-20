@@ -1,0 +1,264 @@
+.body {
+    margin: auto;
+}
+.background-wrapper {
+    background-color: #FFFFFF;
+}
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1280px;
+}
+
+.header {     
+    display: flex;
+    justify-content: space-between ;
+}
+
+h3 {
+    display: flex;
+    font-size: 32px;
+    color: #545454;
+    font-family: Georgia;
+    margin-bottom: 0;
+    line-height: 35.2px
+}
+
+p {
+    display: flex;
+    justify-content: center;
+    color: #292929;
+    margin-top: 0;
+    font-size: 13px;
+    font-weight: 400;
+    font-family: Arial;
+    line-height: 14.95px;
+}
+
+.logo {
+    text-decoration: none;
+}
+
+.nav {
+    display: flex;
+    margin-top: 50px;
+    list-style: none;
+    flex-wrap: wrap;
+}
+.nav a {
+    vertical-align: middle;
+    justify-content: space-around;
+    text-decoration: none;
+    color: #CDCDCD;
+    font-size: 15px;
+    font-family: Arial;
+    font-weight: 400;
+    margin-right: 40px;
+}
+.notactive {
+    border-bottom: 3px solid #F1CDB3;
+    margin-bottom: 30px;
+}
+
+.active:active {
+    color: #FAFAFA;
+    border-bottom: 3px solid #F1CDB3;
+    margin-bottom: 30px;
+}
+
+.active:hover {
+    cursor: pointer;
+    border-bottom: 3px solid #F1CDB3;
+    margin-bottom: 30px;
+}
+
+.grey {
+    background: #F6F6F6;
+    width: 100%;
+}
+.main {
+    display: flex;
+    flex-direction: column;
+}
+.our-friends {
+    display: flex;
+    padding: 40px 10px 40px 10px;
+    flex-direction: column;
+    align-items: center;
+    gap: 55px 120px;
+
+}
+.heanding-ourpets {
+    font-family: Georgia;
+    font-weight: 400;
+    width: 350px;
+    height: 90px;
+    color: #545454;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 45.5px;
+    display: flex;
+    align-self: center;
+}
+.three {
+    display: flex;
+    width: 1280px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 50px 50px;
+}
+
+.pets-name {
+    font-family: Georgia;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 22.72px;
+    color: #545454;
+    margin-top: 10px;
+}
+ .Katrine, .Jennifer, .Woody, .Sophia, .Timmy, .Charly, .Scarlett, .Freddie {
+    background-color: #FAFAFA;
+    display: flex;
+    flex-direction: column;
+    height: 435px;
+    width: 270px;
+    justify-content: space-between;
+ }  
+ 
+ .Katrine:hover, .Jennifer:hover, .Woody:hover,  .Sophia:hover, .Timmy:hover, .Charly:hover, .Scarlett:hover, .Freddie:hover {
+    background-color: #FFFFFF;
+    cursor: pointer;
+    }
+.button-ourpets:hover {
+    background-color: #FDDCC4;
+}
+
+ .button-ourpets {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 41px;
+    border: 2px solid #F1CDB3;
+    border-radius: 100px;
+    color: #292929;
+    font-family: Georgia;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22.1px;
+    background-color: white;
+    width: 187px;
+    height: 52px;
+    margin-bottom: 30px;
+ }
+
+.footer-wrapper {
+    background: linear-gradient(to right, #513D2F ,#1A1A1C);
+}
+
+.footer {
+    width: 100%;
+    height: 350px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0;
+    padding: 40px 40px 0 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.for-title, .visit-title {
+    color: #FFF;
+    font-family: Georgia;
+    font-weight: 400;
+    font-size: 35px;
+    width: 270px;
+}
+.for, .visit {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;    
+    height: 234px;
+
+    }
+.contacts {
+    color: #F1CDB3;
+    font-family: Georgia;
+    font-weight: 400;
+    font-size: 23px;
+    text-decoration: none;
+    width: 302px;   
+}
+
+.email-img, .icon-img, .pin.png,  {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.pin-contacts {
+    display: flex;
+ }
+
+ .liz {
+    display: flex;
+    align-items: end;
+ }
+ .Pagination {
+    display: flex;
+    flex-direction: row;
+    width: 340px;
+    height: 52px;
+    justify-content: space-between;
+    padding: 0;
+}
+
+.P-active {
+    border: 2px solid #F1CDB3;
+    border-radius: 100px;
+    color: #292929;
+    background-color: white;
+    width: 52px;
+    height: 52px;
+    text-align: center;
+    align-content: center;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    font-family: Georgia;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.P-active:hover {
+    background-color: #F1CDB3;
+}
+
+.P-notactive {
+    border: 2px solid #CDCDCD;
+    border-radius: 100px;
+    color: #CDCDCD;
+    background-color: white;
+    width: 52px;
+    height: 52px;
+    text-align: center;
+    align-self: center;
+    text-decoration: none;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Georgia;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+.arrows-back:disabled {
+    color: #CDCDCD;
+    border: 2px solid #CDCDCD;
+}
